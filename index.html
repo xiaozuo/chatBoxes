@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="chatForm.css" />
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="chatBox.js" type="text/javascript"></script>
+<script src="chatBoxCss.js" type="text/javascript"></script>
+<title>聊天室</title>
+</head>
+
+<body>
+	<!--
+	<div>
+    	<audio src="/songs/a.mp3" controls="controls">Your browser does not support the audio tag.</audio>
+    </div>
+    -->
+	<div id="chatBox">
+        <div id="chatView">
+            <div id="chatNamesView">
+            	<p><b>当前在线</b></p>
+                <div></div>
+            </div>
+            <div id="chatContentView">
+                <p><b>聊天窗口</b></p>
+                <div></div>
+                <a id="bottom"></a>
+            </div>
+        </div>
+        <div id="chatSubmit">
+            <form id="chatform">
+                <div><b>姓名&nbsp;&nbsp;</b><input type="text" name="name" value="[请输入聊天显示名称]"/></div>
+                <div><b style="float:left;">内容&nbsp;&nbsp;</b><textarea name="content" >[请输入聊天内容]</textarea></div>
+                <input type="button" value="发送" id="chatSubmitButton"/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

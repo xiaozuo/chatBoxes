@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	text-align:center;
+	background-image:url(img/320177.jpg);
+	color:#3E0378;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;}
+#chatBox{
+	margin-top:50px;
+	height:700px;
+	}
+#chatView{
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	width:800px; 
+	height:500px;
+	background-image:url(img/bg3.jpg);
+	color:#3D3D3D;
+	}
+#chatNamesView{
+	float:left;
+	width:28.1%; 
+	height:99.2%; 
+	border:solid 2px;
+	border-radius:10px;
+	border-color:#BCBCBC;
+	text-align:left;
+	}
+#chatNamesView span{
+	display:block;
+	font-size:10px;
+	line-height:25px;
+	color:#0000A0;
+	margin-left:10px;}	
+	
+#chatNamesView div{
+	width:100%;
+	height:443px;
+	overflow:auto;
+}
+
+#chatNamesView p, #chatContentView p{
+	margin-top:0px;
+	margin-bottom:0px;
+	height:50px;
+	line-height:50px;
+	border-radius:8px 8px 2px 2px;
+	border-bottom-style:groove;
+	background-color:#8E1EFF;
+	color:#EED56C;
+	padding-left:10px;
+}
+
+#chatContentView{
+	margin-left:2px;
+	float:left;
+	width:70.6%; 
+	height:99.2%; 
+	border:solid 2px;
+	border-radius:10px;
+	border-color:#BCBCBC;
+	text-align:left;}	
+
+#chatContentView div{
+	height:443px;
+	overflow:auto;}
+
+#chatContentView span{
+	display:block;
+	font-size:12px;
+	line-height:20px;
+	margin-left:10px;}
+#chatContentView span span{
+	//background-image:url(img/qipao.jpg) ;
+	line-height:30px;
+	padding:0 10px;
+	margin-left:15px;
+	margin-top:3px;
+	margin-bottom:3px;
+	border:1px solid #8E1EFF;
+	border-radius:5px;
+	background-color:#FEF1C0}
+#chatContentView small{
+	margin-left:20px;
+	font-size:9px;
+	color:#787878}
+
+#chatSubmit{
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	width:800px;
+	text-align:left;
+	background-color:#D4D4D4;
+	border-radius:10px;
+	border:solid 1px;
+	border-color:#999;
+	margin-top:5px;}
+	
+#chatform{
+	padding-top:5px;
+	padding-left:10px;
+}
+
+#chatform textarea{
+	width:400px;
+	height:100px;
+	resize: none;}
+#chatform div{
+	padding-top:5px;}
+#chatSubmitButton{
+	margin-top:5px;
+	margin-left:37px;
+	margin-bottom:5px;
+	background-color:#9477AE;
+	color:#000;
+	font-weight:700;
+	width:70px;
+	height:30px;
+	cursor:pointer;}
+#chatSubmitButton:hover{
+	background-color:#DEBCD8;}
+	
+.gray{
+	color:#848484;}
